@@ -1,0 +1,514 @@
+
+*{
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+}
+
+.main{
+
+  display: flex;
+  height: 100vh;
+  background-color:black;
+  color: white;
+  padding: 1.5rem;
+  margin-top: 1rem;
+
+
+ 
+
+}
+
+.sidebar{
+    background-color: black;
+    width: 340px;
+    border-radius: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.main-content{
+  background-color: #121212;
+  color: white;
+  flex: 1;
+  border-radius: 1rem;
+  
+  padding: 0 1.5rem 0 1.5rem;
+  
+ overflow: auto;
+
+}
+
+.music_player{
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    
+}
+
+.nav{
+    background-color:#121212;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5rem 0.7rem;
+    height: 100px;
+      
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.nav-option{
+    line-height: 2.5rem;
+    opacity: 0.7;
+    padding: 0.5rem 0.7rem;
+
+   
+}
+.nav-option:hover{
+  
+    opacity: 1;
+   
+}
+.nav-option i{
+    font-size:1.25rem ;
+   
+  
+    
+}
+
+.library{
+    padding: 0.5rem 0.7rem;
+    height: 100%;
+    margin-top: 0.5rem;
+    border-radius: 1.5rem;
+    background-color: #121212;
+
+    
+
+
+}
+
+.options{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.lib-options img{
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+.icons{
+
+    display: flex;
+    font-size: 1.25rem;
+    
+}
+
+.icons i{
+ 
+    margin-right: 1rem;
+    opacity: 0.7;
+}
+
+.icons :hover{
+
+    opacity:0.9 ;
+}
+
+.boxes{
+    height: 8rem;
+    background-color: #232323;
+    border-radius: 0.75rem;
+  
+   padding: 2rem 1rem;
+    line-height: 2rem;
+    margin:0.75rem 0 1.75rem 0;
+}
+
+.p1{
+    font-size: 1rem;
+    font-weight: 700;
+  
+}
+.p2{
+font-size: 0.85rem;
+opacity: 0.9;
+  
+}
+
+.bage{
+
+    border:none;
+    padding: 0.5rem 1rem;
+    border-radius: 6.09rem;
+    font-weight: 700;
+    background: white;
+    margin-top: 2rem;
+    height: 2rem;
+    width: fit-content;
+}
+
+
+
+
+.nav-sticky{
+position: sticky;
+top: 0;
+z-index: 1;
+background-color: #121212;
+padding: 0.7rem 0 0.7rem .7rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.sticky-icons{
+    display: flex;
+    align-items: center;
+}
+.sticky-icons img{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 1rem;
+    background-color: black;
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+
+.left{
+
+    opacity: 0.9;
+}
+
+.nav-btn{
+
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+  
+}
+.nav-btn button{
+    margin-right: 3rem;
+}
+.btn-1{
+ background-color: white;
+ font-weight: 700;
+ padding: 0.7rem 0.5rem 0.7rem 0.5rem;
+ border-radius: 1rem;
+ border: none;
+ text-align: center;
+
+}
+.btn-2{
+     display: flex;
+     align-items: center;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 0.7rem 0.5rem 0.7rem 0.5rem;
+    font-weight: 700;
+    border-radius: 1rem;
+}
+
+.btn-2 i {
+
+    font-size: 1.3rem;
+    margin-right: 0.5rem;
+   
+}
+
+#pro{
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+@media (max-width:1000px)
+{
+    .hide{
+        display: none;
+    } 
+}
+
+
+
+
+.card{
+    background-color: #232323;
+ width: 150px;
+
+ border-radius: 0.5rem;
+ padding: 1rem;
+
+ margin-left: 1rem;
+ margin-top: 1rem;
+
+
+}
+.cards-container {
+    display: flex;
+    
+
+ 
+  flex-wrap: wrap;
+}
+
+ .card-img{
+
+    width: 100%;
+    border-radius: 0.5rem;
+   margin-bottom: 0.5rem;
+ }
+
+ h2{
+    margin: 1rem 0 1rem 0;
+ }
+
+ .card-title{
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+ }
+ .card-info{
+    font-size: 0.85rem;
+    opacity: 0.8;
+ }
+
+ .footer{
+
+height: 300px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+
+ }
+
+
+ .line{
+
+    border-top: solid 2px white;
+
+    width: 70%;
+    opacity: 0.4;
+
+ }
+
+ .music_player{
+ 
+    display: flex;
+ 
+    
+  
+
+ }
+
+
+ .left-side {
+      width: 25%;
+      background-color: black;
+
+    display: flex;
+    align-items: center;
+
+   
+    
+ }
+
+ #music{
+
+    height: 4rem;
+    width: 4rem;
+    border-radius: 0.5rem;
+    margin-left: 1.5rem;
+
+ }
+
+ .para{
+
+    display: flex;
+    flex-flow: nowrap column;
+    gap: 0.5rem;
+    margin-left: 1rem;
+ }
+ .line-1{
+  
+color: white;
+font-weight: 600;
+  
+  
+ }
+
+ .line-2 {
+    color: white;
+    font-size: 0.8rem;
+    opacity: 0.7;
+ }
+
+ .i-1{
+    color: white;
+ }
+
+
+ 
+ .album{
+
+display: flex;
+justify-content: center;
+align-items: center;
+ margin-left: 2rem;
+
+ }
+ .album i {
+
+    color: white;
+    margin-left: 1rem;
+    opacity: 0.7;
+    cursor: pointer;
+   transition: all 0.5s linear 0s ;
+ }
+
+ .album i:hover{
+    opacity: 1;
+     transform: scale(1.1);
+ }
+
+
+
+.play-control{
+      width: 50%;
+    display: flex;
+flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+}
+.play-options i {
+
+    color: white;
+    margin: 0.8rem;
+
+    font-size: 1.3rem;
+    cursor: pointer;
+   opacity: 0.7;
+
+}
+
+.play-options i:hover {
+    opacity: 1;
+}
+#play{
+
+    font-size: 2rem;
+    position: relative;
+    top: 0.4rem;
+    
+}
+
+
+.range{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+    width: 100%;
+ margin-bottom: 1rem;
+
+}
+.range span {
+    
+    font-size: 0.9rem;
+    color: white;
+    padding: 0 1rem 0 1rem;
+}
+#rgn {
+    width: 70%;
+    appearance: none;
+    height: 0.2rem;
+    background-color: transparent;
+    cursor: pointer;
+  
+   
+}
+
+#rgn::-webkit-slider-runnable-track
+{
+  background-color: whitesmoke;
+  
+}
+
+#rgn::-webkit-slider-thumb{
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    border-radius:50%;
+    background-color: green ;
+ 
+  
+    
+}
+
+
+.right-side{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    width: 25%;
+    background-color: black;
+
+ }
+
+ .last-icons i {
+font-size: 1.3rem;
+color: white;
+margin-right: 1rem;
+transition: all 0.3s linear 0s;
+opacity: 0.7;
+cursor: pointer;
+ }
+
+ .last-icons i:hover{
+
+    transform: scale(1.1);
+    opacity: 1;
+ }
+
+ .volume{
+ appearance: none;
+ background-color: transparent;
+
+
+
+
+ }
+ .volume::-webkit-slider-runnable-track{
+     
+  
+    background-color: #fff;
+    height: 0.3rem;
+    border-radius: 100px;
+    margin-bottom: 0.5rem;
+   
+;
+ }
+
+.volume::-webkit-slider-thumb{
+
+    appearance: none;
+    height: 1rem; 
+    width: 1rem;
+    border-radius: 50%;
+    
+  
+   
+}
